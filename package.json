@@ -1,0 +1,23 @@
+{
+  "name": "fis-deploy-scp",
+  "version": "0.1.0",
+  "description": "fis2的scp插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webplus/fis-deploy-scp.git"
+  },
+  "keywords": [
+    "fis",
+    "scp"
+  ],
+  "author": "webplus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webplus/fis-deploy-scp/issues"
+  },
+  "homepage": "https://github.com/webplus/fis-deploy-scp#readme"
+}
