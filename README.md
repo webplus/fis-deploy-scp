@@ -15,17 +15,17 @@ npm install fis-deploy-scp -g
 启用 
 
 ```javascript
-fis.config.set('modules.deploy', 'scp'); 
+fis.config.set('modules.deploy', ['default', 'scp']) 
 ```
 
 配置
 
 ```javascript
 fis.config.set('settings.deploy.scp', {
-    publish: {
-        source: '../output', // 要上传的文件夹
+    publish : {
+        to: '/remote/path',     // 要上传到的远程机器的文件夹
         server: 'root@127.0.0.1', // 远程机
-        to: '/remote/dir' // 要上传到的远程机器的文件夹
+        file: './release/dist.zip'// 要上传的文件，会把所有FIS输出的文件压缩zip
     }
 });
 ```

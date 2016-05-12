@@ -1,6 +1,6 @@
 {
   "name": "fis-deploy-scp",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "fis2的scp插件",
   "main": "index.js",
   "scripts": {
