@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "archiver": "0.14.3"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/webplus/fis-deploy-scp.git"
